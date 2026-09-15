@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #3B2458;
+
+}
+
+.main-header .logo{
+    display: flex;
+    margin-left: 20px;
+}
+
+.logo-efeito{
+    width: 50px;
+    filter: invert(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-efeito:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+
+
+
+.nav-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a{
+    font-family: Poppins;
+    font-size: 0.95rem;
+    color: #ffff;
+    transition: color 0.4s ease;
+    text-decoration: none ;
+    padding-bottom: 4px;
+}
+
+.link-linha {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 4px;
+
+}
+
+.link-linha::after {
+    content: '';
+    background-color: #ffff;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.link-linha:hover::after {
+    width: 100%;
+}
