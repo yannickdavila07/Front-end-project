@@ -195,3 +195,62 @@
     color: #ffff;
     font-family: Inter;
 }
+
+.main-footer{
+    background-color: #14111C;
+    min-height: 35vh;
+}
+
+.footer-container{
+    max-width: 1288px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-left: 30px;
+}
+
+.coluna h3{
+    color: #6d52a2;
+    font-family: Inter;
+    font-weight: 500;
+    margin-bottom: 10px
+    
+
+}
+
+.coluna p{
+    color: #C8BDD4;
+    font-family: Inter;
+    font-weight: 100;
+}
+
+.logo-footer{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.logo-footer h1{
+    color: #ffff;
+
+}
+
+.divisao{
+    margin-top: 15px;
+    border-top: 1px solid #5d52a2;
+}
+
+
+.copyright-area{
+    margin-top: 15px;
+    color: #ffff
+}
